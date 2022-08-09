@@ -50,9 +50,6 @@ def main():
     pkt.show2()
     sendp(pkt, iface=iface, verbose=False)
 
-    #pkt = pkt / SourceRoute(bos=0, port=2) / SourceRoute(bos=0, port=3);
-    #pkt = pkt / SourceRoute(bos=0, port=2) / SourceRoute(bos=0, port=2);
-    #pkt = pkt / SourceRoute(bos=1, port=1)
 
 
 if __name__ == '__main__':
